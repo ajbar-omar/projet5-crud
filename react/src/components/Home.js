@@ -8,6 +8,8 @@ import { Provider } from "./../contexts/Context";
 import Form from "./Form";
 import UserList from "./UserList";
 import { Actions } from "./../Actions";
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 
 function Home() {
 
@@ -27,9 +29,8 @@ function Home() {
                 </div>
                 <Provider value={data}>
                     <div className="App">
-                        <h1>React JS + PHP CRUD Application</h1>
                         <div className="wrapper">
-                            <section className="left-side">
+                            <section className="">
                                 <Form />
                             </section>
                             <section className="right-side">

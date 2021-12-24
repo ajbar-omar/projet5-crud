@@ -24,13 +24,11 @@ color: white;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 .userInfo,
 ._loginRegister{
-  background-color: rgb(222 222 222 / 10%);
+  background-color: rgba(255, 255, 255, 0.1);
   font-family: 'Dosis', sans-serif;
 
     padding: 20px;
@@ -125,6 +123,8 @@ code {
 
 .userInfo{
   text-align: center;
+  margin-top: -30px;
+  margin-bottom: 26px;
 }
 
 .userInfo ._img{
@@ -136,7 +136,7 @@ code {
 }
 .userInfo ._email{
   margin: 10px 0;
-  color: #555555;
+  color: #ffffff;
 }
 .userInfo button{
   margin-top: 5px;
@@ -180,11 +180,11 @@ code {
 
 .App {
   max-width: 900px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  padding: 20px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  border-radius: 3px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+    border-radius: 22px;
 }
 
 .App h1 {
@@ -207,7 +207,8 @@ code {
 
 .right-side {
   padding-left: 20px;
-  width: 70%;
+  width: 100%;
+  font-family: 'Dosis', sans-serif;
 }
 
 .right-side table {
@@ -229,9 +230,10 @@ code {
 }
 
 .right-side table th {
-  background-color: #F9FAFB;
-  font-size: 20px;
-  padding: 15px;
+  background-color: #19223c;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
 }
 
 .right-side table button {
@@ -239,8 +241,7 @@ code {
 }
 
 .insertForm{
-  background-color: #F9FAFB;
-  border: 1px solid #cccccc;
+
   padding: 10px;
 }
 
@@ -251,24 +252,28 @@ code {
 
 .insertForm label {
   font-weight: bold;
+  font-family: 'Dosis', sans-serif;
 }
 
 .insertForm input {
-  width: 100%;
+  width: 42%;
   padding: 10px;
   font-size: 16px;
   margin-bottom: 5px;
+  margin-right: 10px;
 }
 
 .insertForm [type="submit"] {
   margin-top: 5px;
-  background: #1F2937;
+  background: #19213b;
   color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   outline: none;
-  border-radius: 2px;
-  cursor: pointer;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 23px;
+  width: 113px;
+  font-weight: bold;
+    cursor: pointer;
+    font-family: 'Dosis', sans-serif;
 
 }
 
@@ -287,12 +292,27 @@ code {
 .green-btn{
   background: #059669;
   color: #ffffff;
+  font-family: 'Dosis', sans-serif;
+
 }
 .red-btn{
   background: #DC2626;
+    color: white;
+    padding: 10px;
+    width: 70px;
+    border-radius: 6px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+
 }
 .default-btn{
-  background: #E5E7EB;
+  background: #1d2640;
+    color: white;
+    padding: 10px;
+    width: 70px;
+    border-radius: 6px;
+    font-family: 'Dosis', sans-serif;
+font-weight: bold;
 }
 .btn:hover{
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
